@@ -1,5 +1,5 @@
 # TRANSFORMER MODELS
-![img.png](img.png)
+![img.png](images/img.png)
 
 The transformer architecture was created with a focus on translation tasks.
 
@@ -29,8 +29,8 @@ Transformer models can be broadly captured into 3 categories.
 ### TRANSFORMERS ARE BIG MODELS
 
 - Apart from a few outliers (like DistilBERT), the general strategy to achieve better performance is by increasing the models’ sizes as well as the amount of data they are pretrained on.
-    ![img_1.png](img_1.png)
+    ![img_1.png](images/img_1.png)
 - But training a large model also has consequences on the environment in terms of CO2 emissions.
-  ![img_2.png](img_2.png)
+  ![img_2.png](images/img_2.png)
 - Hence we use transfer learning- which means the training is done on top of a pre-trained model. To perform fine-tuning, you first acquire a pretrained language model, then perform additional training with a dataset specific to your task
 - For example, one could leverage a pretrained model trained on the English language and then fine-tune it on an arXiv corpus, resulting in a science/research-based model. The fine-tuning will only require a limited amount of data: the knowledge the pretrained model has acquired is “transferred,” hence the term transfer learning.
